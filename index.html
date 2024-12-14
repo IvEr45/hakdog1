@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrollable Media</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        h2 {
+            margin: 20px;
+            text-align: center;
+            color: #444;
+        }
+
+        .media-container {
+            display: flex;
+            overflow-x: auto;
+            gap: 15px;
+            padding: 15px 20px;
+            white-space: nowrap;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .media-container img {
+            width: 300px;
+            height: 200px;
+            border-radius: 8px;
+            object-fit: cover;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+        }
+
+        .media-container img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .media-container::-webkit-scrollbar {
+            height: 10px;
+        }
+
+        .media-container::-webkit-scrollbar-thumb {
+            background-color: #888;
+            border-radius: 5px;
+        }
+
+        .media-container::-webkit-scrollbar-thumb:hover {
+            background-color: #555;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        body > div {
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Prelims</h2>
+<h3>Critical Reading</h3>
+<div class="media-container">
+    <a href="images/prelims/CriticalRead/image1.png" target="_blank">
+        <img src="images/prelims/CriticalRead/image1.png" alt="Image 1">
+    </a>
+    <a href="images/prelims/CriticalRead/image2.jpg" target="_blank">
+        <img src="images/prelims/CriticalRead/image2.jpg" alt="Image 2">
+    </a>
+    <a href="images/prelims/CriticalRead/image3.jpg" target="_blank">
+        <img src="images/prelims/CriticalRead/image3.jpg" alt="Image 3">
+    </a>
+    <a href="images/prelims/CriticalRead/image4.jpg" target="_blank">
+        <img src="images/prelims/CriticalRead/image4.jpg" alt="Image 4">
+    </a>
+    <a href="images/prelims/CriticalRead/image5.jpg" target="_blank">
+        <img src="images/prelims/CriticalRead/image5.jpg" alt="Image 5">
+    </a>
+    <a href="images/prelims/CriticalRead/image6.jpg" target="_blank">
+        <img src="images/prelims/CriticalRead/image6.jpg" alt="Image 6">
+    </a>
+    <a href="images/prelims/CriticalRead/image7.jpg" target="_blank">
+        <img src="images/prelims/CriticalRead/image7.jpg" alt="Image 7">
+    </a>
+    <a href="images/prelims/CriticalRead/image8.jpg" target="_blank">
+        <img src="images/prelims/CriticalRead/image8.jpg" alt="Image 8">
+    </a>
+    <!-- Add additional images here -->
+</div>
+
+<h3>Patterns of Organization</h3>
+<div class="media-container">
+    <a href="images/prelims/DevelopTech/image1.jpg" target="_blank">
+        <img src="images/prelims/DevelopTech/image1.jpg" alt="Image 1">
+    </a>
+    <a href="images/prelims/DevelopTech/image2.jpg" target="_blank">
+        <img src="images/prelims/DevelopTech/image2.jpg" alt="Image 2">
+    </a>
+    <a href="images/prelims/DevelopTech/image3.jpg" target="_blank">
+        <img src="images/prelims/DevelopTech/image3.jpg" alt="Image 3">
+    </a>
+    <a href="images/prelims/DevelopTech/image4.jpg" target="_blank">
+        <img src="images/prelims/DevelopTech/image4.jpg" alt="Image 4">
+    </a>
+    <a href="images/prelims/DevelopTech/image5.jpg" target="_blank">
+        <img src="images/prelims/DevelopTech/image5.jpg" alt="Image 5">
+    </a>
+    <a href="images/prelims/DevelopTech/image6.jpg" target="_blank">
+        <img src="images/prelims/DevelopTech/image6.jpg" alt="Image 6">
+    </a>
+    <a href="images/prelims/DevelopTech/image7.jpg" target="_blank">
+        <img src="images/prelims/DevelopTech/image7.jpg" alt="Image 7">
+    </a>
+    <a href="images/prelims/DevelopTech/image8.jpg" target="_blank">
+        <img src="images/prelims/DevelopTech/image8.jpg" alt="Image 8">
+    </a>
+    <a href="images/prelims/DevelopTech/image9.jpg" target="_blank">
+        <img src="images/prelims/DevelopTech/image9.jpg" alt="Image 9">
+    </a>
+    <!-- Add additional images here -->
+</div>
+
+<h3>Patterns of Organization</h3>
+<div class="media-container">
+    <a href="images/prelims/ImproveEffect/image1.jpg" target="_blank">
+        <img src="images/prelims/ImproveEffect/image1.jpg" alt="Image 1">
+    </a>
+    <a href="images/prelims/ImproveEffect/image2.jpg" target="_blank">
+        <img src="images/prelims/ImproveEffect/image2.jpg" alt="Image 2">
+    </a>
+    <a href="images/prelims/ImproveEffect/image3.jpg" target="_blank">
+        <img src="images/prelims/ImproveEffect/image3.jpg" alt="Image 3">
+    </a>
+    <a href="images/prelims/ImproveEffect/image4.jpg" target="_blank">
+        <img src="images/prelims/ImproveEffect/image4.jpg" alt="Image 4">
+    </a>
+    <a href="images/prelims/ImproveEffect/image5.jpg" target="_blank">
+        <img src="images/prelims/ImproveEffect/image5.jpg" alt="Image 5">
+    </a>
+    <a href="images/prelims/ImproveEffect/image6.jpg" target="_blank">
+        <img src="images/prelims/ImproveEffect/image6.jpg" alt="Image 6">
+    </a>
+    <a href="images/prelims/ImproveEffect/image7.jpg" target="_blank">
+        <img src="images/prelims/ImproveEffect/image7.jpg" alt="Image 7">
+    </a>
+    <a href="images/prelims/ImproveEffect/image8.jpg" target="_blank">
+        <img src="images/prelims/ImproveEffect/image8.jpg" alt="Image 8">
+    </a>
+    <!-- Add additional images here -->
+</div>
+
+<h3>Reaction Paper</h3>
+<div class="media-container">
+    <a href="images/prelims/ReactioPaperReview/image1.jpg" target="_blank">
+        <img src="images/prelims/ReactioPaperReview/image1.jpg" alt="Image 1">
+    </a>
+    <a href="images/prelims/ReactioPaperReview/image2.jpg" target="_blank">
+        <img src="images/prelims/ReactioPaperReview/image2.jpg" alt="Image 2">
+    </a>
+    <a href="images/prelims/ReactioPaperReview/image3.jpg" target="_blank">
+        <img src="images/prelims/ReactioPaperReview/image3.jpg" alt="Image 3">
+    </a>
+    <a href="images/prelims/ReactioPaperReview/image4.jpg" target="_blank">
+        <img src="images/prelims/ReactioPaperReview/image4.jpg" alt="Image 4">
+    </a>
+    <a href="images/prelims/ReactioPaperReview/image5.jpg" target="_blank">
+        <img src="images/prelims/ReactioPaperReview/image5.jpg" alt="Image 5">
+    </a>
+
+    <!-- Add additional images here -->
+</div>
+
+<h3>Summarizing, Paraphrasing, and Outlining</h3>
+<div class="media-container">
+    <a href="images/prelims/SummarizingParaphrasing/image1.jpg" target="_blank">
+        <img src="images/prelims/SummarizingParaphrasing/image1.jpg" alt="Image 1">
+    </a>
+    <a href="images/prelims/SummarizingParaphrasing/image2.jpg" target="_blank">
+        <img src="images/prelims/SummarizingParaphrasing/image2.jpg" alt="Image 2">
+    </a>
+    <a href="images/prelims/SummarizingParaphrasing/image3.jpg" target="_blank">
+        <img src="images/prelims/SummarizingParaphrasing/image3.jpg" alt="Image 3">
+    </a>
+    <a href="images/prelims/SummarizingParaphrasing/image4.jpg" target="_blank">
+        <img src="images/prelims/SummarizingParaphrasing/image4.jpg" alt="Image 4">
+    </a>
+    <a href="images/prelims/SummarizingParaphrasing/image5.jpg" target="_blank">
+        <img src="images/prelims/SummarizingParaphrasing/image5.jpg" alt="Image 5">
+    </a>
+    <a href="images/prelims/SummarizingParaphrasing/image6.jpg" target="_blank">
+        <img src="images/prelims/SummarizingParaphrasing/image6.jpg" alt="Image 6">
+    </a>
+    <a href="images/prelims/SummarizingParaphrasing/image7.jpg" target="_blank">
+        <img src="images/prelims/SummarizingParaphrasing/image7.jpg" alt="Image 7">
+    </a>
+    <a href="images/prelims/SummarizingParaphrasing/image8.jpg" target="_blank">
+        <img src="images/prelims/SummarizingParaphrasing/image8.jpg" alt="Image 8">
+    </a>
+    <a href="images/prelims/SummarizingParaphrasing/image9.jpg" target="_blank">
+        <img src="images/prelims/SummarizingParaphrasing/image9.jpg" alt="Image 9">
+    </a>
+    <a href="images/prelims/SummarizingParaphrasing/image10.jpg" target="_blank">
+        <img src="images/prelims/SummarizingParaphrasing/image10.jpg" alt="Image 10">
+    </a>
+    <!-- Add additional images here -->
+</div>
+
+<h2>Midterms</h2>
+<h3>Product Review</h3>
+<div class="media-container">
+    <a href="images/midterms/DevelopEval/image1.jpg" target="_blank">
+        <img src="images/midterms/DevelopEval/image1.jpg" alt="Image 1">
+    </a>
+    <a href="images/midterms/DevelopEval/image2.jpg" target="_blank">
+        <img src="images/midterms/DevelopEval/image2.jpg" alt="Image 2">
+    </a>
+    <a href="images/midterms/DevelopEval/image3.jpg" target="_blank">
+        <img src="images/midterms/DevelopEval/image3.jpg" alt="Image 3">
+    </a>
+    <a href="images/midterms/DevelopEval/image4.jpg" target="_blank">
+        <img src="images/midterms/DevelopEval/image4.jpg" alt="Image 4">
+    </a>
+    <a href="images/midterms/DevelopEval/image5.jpg" target="_blank">
+        <img src="images/midterms/DevelopEval/image5.jpg" alt="Image 5">
+    </a>
+    <a href="images/midterms/DevelopEval/image6.jpg" target="_blank">
+        <img src="images/midterms/DevelopEval/image6.jpg" alt="Image 6">
+    </a>
+    <!-- Add additional images here -->
+</div>
+
+<h3>Formal Assessment</h3>
+<div class="media-container">
+    <a href="images/midterms/EvaluateStu/image1.jpg" target="_blank">
+        <img src="images/midterms/EvaluateStu/image1.jpg" alt="Image 1">
+    </a>
+    <a href="images/midterms/EvaluateStu/image2.jpg" target="_blank">
+        <img src="images/midterms/EvaluateStu/image2.jpg" alt="Image 2">
+    </a>
+    <a href="images/midterms/EvaluateStu/image3.jpg" target="_blank">
+        <img src="images/midterms/EvaluateStu/image3.jpg" alt="Image 3">
+    </a>
+    <a href="images/midterms/EvaluateStu/image4.jpg" target="_blank">
+        <img src="images/midterms/EvaluateStu/image4.jpg" alt="Image 4">
+    </a>
+    <a href="images/midterms/EvaluateStu/image5.jpg" target="_blank">
+        <img src="images/midterms/EvaluateStu/image5.jpg" alt="Image 5">
+    </a>
+    <a href="images/midterms/EvaluateStu/image6.jpg" target="_blank">
+        <img src="images/midterms/EvaluateStu/image6.jpg" alt="Image 6">
+    </a>
+    <a href="images/midterms/EvaluateStu/image7.jpg" target="_blank">
+        <img src="images/midterms/EvaluateStu/image7.jpg" alt="Image 7">
+    </a>
+    <a href="images/midterms/EvaluateStu/image8.jpg" target="_blank">
+        <img src="images/midterms/EvaluateStu/image8.jpg" alt="Image 8">
+    </a>
+    <!-- Add additional images here -->
+</div>
+
+<h3>Speech Choir</h3>
+<div class="media-container">
+    <a href="images/midterms/ImproveGes/image1.jpg" target="_blank">
+        <img src="images/midterms/ImproveGes/image1.jpg" alt="Image 1">
+    </a>
+    <a href="images/midterms/ImproveGes/image2.jpg" target="_blank">
+        <img src="images/midterms/ImproveGes/image2.jpg" alt="Image 2">
+    </a>
+    <a href="images/midterms/ImproveGes/image3.jpg" target="_blank">
+        <img src="images/midterms/ImproveGes/image3.jpg" alt="Image 3">
+    </a>
+    <a href="images/midterms/ImproveGes/image4.jpg" target="_blank">
+        <img src="images/midterms/ImproveGes/image4.jpg" alt="Image 4">
+    </a>
+    <a href="images/midterms/ImproveGes/image5.jpg" target="_blank">
+        <img src="images/midterms/ImproveGes/image5.jpg" alt="Image 5">
+    </a>
+    <a href="images/midterms/ImproveGes/image6.jpg" target="_blank">
+        <img src="images/midterms/ImproveGes/image6.jpg" alt="Image 6">
+    </a>
+    <a href="images/midterms/ImproveGes/image7.jpg" target="_blank">
+        <img src="images/midterms/ImproveGes/image7.jpg" alt="Image 7">
+    </a>
+    <a href="images/midterms/ImproveGes/image8.jpg" target="_blank">
+        <img src="images/midterms/ImproveGes/image8.jpg" alt="Image 8">
+    </a>
+    <a href="images/midterms/ImproveGes/image9.jpg" target="_blank">
+        <img src="images/midterms/ImproveGes/image9.jpg" alt="Image 9">
+    </a>
+    <!-- Add additional images here -->
+</div>
+
+<h3>Critique Paper</h3>
+<div class="media-container">
+    <a href="images/midterms/ImproveGra/image1.jpg" target="_blank">
+        <img src="images/midterms/ImproveGra/image1.jpg" alt="Image 1">
+    </a>
+    <a href="images/midterms/ImproveGra/image2.jpg" target="_blank">
+        <img src="images/midterms/ImproveGra/image2.jpg" alt="Image 2">
+    </a>
+    <a href="images/midterms/ImproveGra/image3.jpg" target="_blank">
+        <img src="images/midterms/ImproveGra/image3.jpg" alt="Image 3">
+    </a>
+    <a href="images/midterms/ImproveGra/image4.jpg" target="_blank">
+        <img src="images/midterms/ImproveGra/image4.jpg" alt="Image 4">
+    </a>
+    <a href="images/midterms/ImproveGra/image5.jpg" target="_blank">
+        <img src="images/midterms/ImproveGra/image5.jpg" alt="Image 5">
+    </a>
+    <a href="images/midterms/ImproveGra/image6.jpg" target="_blank">
+        <img src="images/midterms/ImproveGra/image6.jpg" alt="Image 6">
+    </a>
+    <a href="images/midterms/ImproveGra/image7.jpg" target="_blank">
+        <img src="images/midterms/ImproveGra/image7.jpg" alt="Image 7">
+    </a>
+    <!-- Add additional images here -->
+</div>
+
+<h3>Formal Assessment</h3>
+<div class="media-container">
+    <a href="images/midterms/EvaluateStu/image1.jpg" target="_blank">
+        <img src="images/midterms/EvaluateStu/image1.jpg" alt="Image 1">
+    </a>
+    <a href="images/midterms/EvaluateStu/image2.jpg" target="_blank">
+        <img src="images/midterms/EvaluateStu/image2.jpg" alt="Image 2">
+    </a>
+    <a href="images/midterms/EvaluateStu/image3.jpg" target="_blank">
+        <img src="images/midterms/EvaluateStu/image3.jpg" alt="Image 3">
+    </a>
+    <a href="images/midterms/EvaluateStu/image4.jpg" target="_blank">
+        <img src="images/midterms/EvaluateStu/image4.jpg" alt="Image 4">
+    </a>
+    <a href="images/midterms/EvaluateStu/image5.jpg" target="_blank">
+        <img src="images/midterms/EvaluateStu/image5.jpg" alt="Image 5">
+    </a>
+    <a href="images/midterms/EvaluateStu/image6.jpg" target="_blank">
+        <img src="images/midterms/EvaluateStu/image6.jpg" alt="Image 6">
+    </a>
+    <a href="images/midterms/EvaluateStu/image7.jpg" target="_blank">
+        <img src="images/midterms/EvaluateStu/image7.jpg" alt="Image 7">
+    </a>
+    <a href="images/midterms/EvaluateStu/image8.jpg" target="_blank">
+        <img src="images/midterms/EvaluateStu/image8.jpg" alt="Image 8">
+    </a>
+    <!-- Add additional images here -->
+</div>
+
+<h3>Speech Choir</h3>
+<div class="media-container">
+    <a href="images/midterms/TrackStu/image1.jpg" target="_blank">
+        <img src="images/midterms/TrackStu/image1.jpg" alt="Image 1">
+    </a>
+    <a href="images/midterms/TrackStu/image2.jpg" target="_blank">
+        <img src="images/midterms/TrackStu/image2.jpg" alt="Image 2">
+    </a>
+    <a href="images/midterms/TrackStu/image3.jpg" target="_blank">
+        <img src="images/midterms/TrackStu/image3.jpg" alt="Image 3">
+    </a>
+    <a href="images/midterms/TrackStu/image4.jpg" target="_blank">
+        <img src="images/midterms/TrackStu/image4.jpg" alt="Image 4">
+    </a>
+    <a href="images/midterms/TrackStu/image5.jpg" target="_blank">
+        <img src="images/midterms/TrackStu/image5.jpg" alt="Image 5">
+    </a>
+    <a href="images/midterms/TrackStu/image6.jpg" target="_blank">
+        <img src="images/midterms/TrackStu/image6.jpg" alt="Image 6">
+    </a>
+    <a href="images/midterms/TrackStu/image7.jpg" target="_blank">
+        <img src="images/midterms/TrackStu/image7.jpg" alt="Image 7">
+    </a>
+    <a href="images/midterms/TrackStu/image8.jpg" target="_blank">
+        <img src="images/midterms/TrackStu/image8.jpg" alt="Image 8">
+    </a>
+    <a href="images/midterms/TrackStu/image9.jpg" target="_blank">
+        <img src="images/midterms/TrackStu/image9.jpg" alt="Image 9">
+    </a>
+    <a href="images/midterms/TrackStu/image10.jpg" target="_blank">
+        <img src="images/midterms/TrackStu/image10.jpg" alt="Image 10">
+    </a>
+    <!-- Add additional images here -->
+</div>
+
+<h2>Finals</h2>
+<div class="media-container">
+    <a href="images/525841b5-c2d7-4e22-9a56-afd2fe2d70d2.jpg" target="_blank">
+        <img src="images/525841b5-c2d7-4e22-9a56-afd2fe2d70d2.jpg" alt="Image 1">
+    </a>
+    <a href="images/c6e6d643-a720-48d0-aaa4-54b249107a8f.jpg" target="_blank">
+        <img src="images/c6e6d643-a720-48d0-aaa4-54b249107a8f.jpg" alt="Image 2">
+    </a>
+    <a href="images/8c32077a-908c-44c9-b8da-14ecdc54014e.jpg" target="_blank">
+        <img src="images/8c32077a-908c-44c9-b8da-14ecdc54014e.jpg" alt="Image 3">
+    </a>
+    <!-- Add additional images here -->
+</div>
+</body>
+</html>
